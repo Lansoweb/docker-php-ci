@@ -34,5 +34,5 @@ RUN pdepend --version \
 	&& phploc --version \
 	&& phpmd --version \
 	&& phpunit --version \
-	&& phing --version
+	&& phing -v
 
