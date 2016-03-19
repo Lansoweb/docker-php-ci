@@ -1,0 +1,15 @@
+{
+  "name" : "DevTools",
+  "description" : "Zoox Wifi",
+  "require" : {
+    "phpunit/phpunit" : "*",
+    "phpmd/phpmd" : "*",
+    "pdepend/pdepend" : "*",
+    "sebastian/phpcpd" : "*",
+    "squizlabs/php_codesniffer" : "*",
+    "theseer/phpdox" : "*",
+    "phploc/phploc" : "*"
+  },
+  "license" : "BSD-3-Clause",
+  "type" : "library"
+}

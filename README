@@ -1,0 +1,14 @@
+PHP 7.0 CI
+==========
+
+Tools installed
+---------------
+
+- phpunit
+- phpmd
+- pdepend
+- phpcpd
+- php_codesniffer
+- phpdox
+- phploc
+
