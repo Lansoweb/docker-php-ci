@@ -23,7 +23,8 @@ RUN ln -s /usr/local/ci/vendor/bin/pdepend /usr/local/bin/ \
 	&& ln -s /usr/local/ci/vendor/bin/phpdox /usr/local/bin/ \
 	&& ln -s /usr/local/ci/vendor/bin/phploc /usr/local/bin/ \
 	&& ln -s /usr/local/ci/vendor/bin/phpmd /usr/local/bin/ \
-	&& ln -s /usr/local/ci/vendor/bin/phpunit /usr/local/bin/
+	&& ln -s /usr/local/ci/vendor/bin/phpunit /usr/local/bin/ \
+	&& ln -s /usr/local/ci/vendor/bin/phing /usr/local/bin/
 
 RUN pdepend --version \
 	&& phpcbf --version \
@@ -32,5 +33,6 @@ RUN pdepend --version \
 	&& phpdox --version \
 	&& phploc --version \
 	&& phpmd --version \
-	&& phpunit --version
+	&& phpunit --version \
+	&& phing --version
 
