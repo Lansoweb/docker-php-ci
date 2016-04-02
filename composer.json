@@ -10,7 +10,8 @@
     "theseer/phpdox" : "*",
     "phploc/phploc" : "*",
     "phing/phing": "2.*",
-    "mayflower/php-codebrowser": "^1.1"
+    "mayflower/php-codebrowser": "*",
+    "codeception/codeception": "*"
   },
   "license" : "BSD-3-Clause",
   "type" : "library"
