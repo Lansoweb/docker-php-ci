@@ -9,7 +9,8 @@
     "squizlabs/php_codesniffer" : "*",
     "theseer/phpdox" : "*",
     "phploc/phploc" : "*",
-    "phing/phing": "2.*"
+    "phing/phing": "2.*",
+    "mayflower/php-codebrowser": "^1.1"
   },
   "license" : "BSD-3-Clause",
   "type" : "library"
