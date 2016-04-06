@@ -1,5 +1,5 @@
-PHP 7.0 CI
-==========
+PHP 7.0.5 CI
+============
 
 Tools installed
 ---------------
@@ -11,4 +11,6 @@ Tools installed
 - php_codesniffer
 - phpdox
 - phploc
+- phpcb
+- codeception
 
