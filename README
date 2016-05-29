@@ -1,5 +1,23 @@
-PHP 7.0.6 CI
-============
+PHP 7.0
+=======
+
+Tag names following PHP version.
+Based on images from [leandrosilva/php](https://hub.docker.com/r/leandrosilva/php/).
+
+Branches
+--------
+- 7.0-apache
+- 7.0-cli
+
+To use the latest php version available for a branch, use:
+```
+docker pull leandrosilva/php-ci:7.0-apache
+```
+
+or a specific php version (check the tags):
+```
+docker pull leandrosilva/php-ci:7.0.7-apache
+```
 
 Tools installed
 ---------------
@@ -12,5 +30,6 @@ Tools installed
 - phpdox
 - phploc
 - phpcb
+- phing
 - codeception
 
