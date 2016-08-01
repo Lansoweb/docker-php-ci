@@ -8,6 +8,7 @@ Branches
 --------
 - 7.0-apache
 - 7.0-cli
+- 7.0-fpm
 
 To use the latest php version available for a branch, use:
 ```
