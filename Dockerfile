@@ -1,4 +1,4 @@
-FROM leandrosilva/php:7.0.10-fpm
+FROM leandrosilva/php:7.0.10-fpm-alpine
 
 MAINTAINER Leandro Silva <leandro@leandrosilva.info>
 
@@ -10,15 +10,15 @@ RUN curl -sS https://getcomposer.org/installer | php -- \
       --filename=composer
 VOLUME /root/composer/cache
 
-RUN apt-install libxslt-dev
+RUN apk-install libxslt-dev
 
 RUN docker-php-ext-install xsl
-
-RUN docker-php-ext-enable xdebug
 
 RUN rm -f /usr/local/etc/php/conf.d/docker-php-ext-opcache.ini >/dev/null 2>/dev/null
 
 RUN composer install --prefer-dist -o -d /usr/local/ci
+
+RUN docker-php-ext-enable xdebug
 
 RUN ln -s /usr/local/ci/vendor/bin/pdepend /usr/local/bin/ \
 	&& ln -s /usr/local/ci/vendor/bin/phpcbf /usr/local/bin/ \

@@ -18,7 +18,7 @@ docker pull leandrosilva/php-ci:7.0-apache
 
 or a specific php version (check the tags):
 ```
-docker pull leandrosilva/php-ci:7.0.710-apache
+docker pull leandrosilva/php-ci:7.0.10-apache
 ```
 
 Tools installed
