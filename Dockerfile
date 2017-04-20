@@ -1,4 +1,4 @@
-FROM leandrosilva/php:7.0-fpm-alpine
+FROM leandrosilva/php:7.1-fpm-alpine
 
 MAINTAINER Leandro Silva <leandro@leandrosilva.info>
 
