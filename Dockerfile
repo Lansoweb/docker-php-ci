@@ -1,4 +1,4 @@
-FROM leandrosilva/php:7.0-fpm
+FROM leandrosilva/php:7.1-fpm
 
 MAINTAINER Leandro Silva <leandro@leandrosilva.info>
 
