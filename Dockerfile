@@ -1,4 +1,4 @@
-FROM leandrosilva/php:7.0-cli
+FROM leandrosilva/php:7.1-cli
 
 MAINTAINER Leandro Silva <leandro@leandrosilva.info>
 
