@@ -2,7 +2,7 @@
   "name" : "DevTools",
   "description" : "Zoox Wifi",
   "require" : {
-    "phpunit/phpunit" : "*",
+    "phpunit/phpunit" : "^5.7 || ^6.1",
     "phpmd/phpmd" : "*",
     "pdepend/pdepend" : "*",
     "sebastian/phpcpd" : "*",
@@ -11,8 +11,8 @@
     "phploc/phploc" : "*",
     "phing/phing": "2.*",
     "mayflower/php-codebrowser": "*",
-    "codeception/codeception": "*"
+    "codeception/codeception": "^2.2"
   },
-  "license" : "BSD-3-Clause",
+  "license" : "MIT",
   "type" : "library"
 }
